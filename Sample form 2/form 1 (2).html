@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Return Form</title>
+</head>
+<body>
+	<h2>LAAM</h2>
+	<h3>POST DELIVERY CONCERN</h3>
+	<h4> RETURN FORM</h4>
+    <form>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required><br><br>
+
+        <label for="tracking-id">Tracking ID:</label>
+        <input type="text" id="tracking-id" name="tracking-id" required><br><br>
+
+        <div style="background-color: grey; padding: 10px; margin: 10px;">
+            <div style="display: flex;">
+                <div style="flex: 1;">
+                    <label for="client-name">Client Name:</label>
+                    <input type="text" id="client-name" name="client-name" required><br><br>
+                    <label for="order-number">Order Number:</label>
+                    <input type="text" id="order-number" name="order-number" required><br><br>
+                </div>
+                <div style="flex: 1;">
+                    <label for="article-code">Article Code/Item Name:</label>
+                    <input type="text" id="article-code" name="article-code" required><br><br>
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" required><br><br>
+                </div>
+            </div>
+            <label for="brand-name">Brand Name:</label>
+            <input type="text" id="brand-name" name="brand-name" required><br><br>
+            <label for="price">Price:</label>
+            <input type="text" id="price" name="price" required><br><br>
+        </div>
+
+        <div style="background-color: grey; padding: 10px; margin: 10px;">
+            <label for="reason-of-return">Reason of Return:</label>
+            <div style="display: flex;">
+                <div style="flex: 1;">
+                    <label for="defective-article">Defective Article:</label>
+                    <input type="checkbox" id="defective-article" name="defective-article"><br><br>
+                    <label for="missing-pieces">Missing Pieces:</label>
+                    <input type="checkbox" id="missing-pieces" name="missing-pieces"><br><br>
+                </div>
+                <div style="flex: 1;">
+                    <label for="alteration-required">Alternation Required:</label>
+                    <input type="checkbox" id="alteration-required" name="alteration-required"><br><br>
+                    <label for="refund-committed">Refund Committed:</label>
+                    <input type="checkbox" id="refund-committed" name="refund-committed"><br><br>
+                </div>
+            </div>
+            <label for="any-other">Any Other:</label>
+            <input type="text" id="any-other" name="any-other"><br><br>
+        </div>
+
+        <div style="background-color: grey; padding: 10px; margin: 10px;">
+            <label for="committed-resolution">Committed Resolution by LAAM:</label>
+            <div style="display: flex;">
+                <div style="flex: 1;">
+                    <label for="exchange-article">Exchange of Article:</label>
+                    <input type="checkbox" id="exchange-article" name="exchange-article"><br><br>
+                    <label for="exchange-size">Exchange of Size:</label>
+                    <input type="checkbox" id="exchange-size" name="exchange-size"><br><br>
+                </div>
+                <div style="flex: 1;">
+                    <label for="issuance-refund">Issuance of Refund:</label>
+                    <input type="checkbox" id="issuance-refund" name="issuance-refund"><br><br>
+                    <label for="issuance-credit-note">Issuance of Credit Note:</label>
+                    <input type="checkbox" id="issuance-credit-note" name="issuance-credit-note"><br><br>
+                </div>
+            </div>
+            <label for="any-other-resolution">Any Other:</label>
+            <input type="text" id="any-other-resolution" name="any-other-resolution"><br><br>
+        </div>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
